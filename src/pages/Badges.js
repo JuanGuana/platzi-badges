@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import BadgesList from '../components/BadgesList';
-
 import './styles/Badges.css';
 import confLogo from '../images/badge-header.svg';
 
@@ -10,7 +9,7 @@ class Badges extends React.Component {
     data: [
       {
         id: '2de30c42-9deb-40fc-a41f-05e62b5939a7',
-        irstName: 'Freda',
+        firstName: 'Freda',
         lastName: 'Grady',
         email: 'Leann_Berge@gmail.com',
         jobTitle: 'Legacy Brand Director',
@@ -61,7 +60,6 @@ class Badges extends React.Component {
               New Badge
             </a>
           </div>
-
           <div className='Badges__list'>
             <div className='Badges__container'>
               <BadgesList badges={this.state.data} />
