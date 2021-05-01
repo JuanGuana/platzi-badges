@@ -9,6 +9,7 @@
   border-radius: 5px;
   margin-bottom: 20px;
   transition: box-shadow 500ms;
+  cursor: pointer;
 }
 
 .BadgesList__card:hover {
