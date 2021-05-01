@@ -2,7 +2,6 @@ import React from 'react';
 import './styles/BadgesList.css';
 class BadgesList extends React.Component {
   render() {
-    console.log(this.props.badges);
     return (
       <ul className='list-unstyled'>
         {this.props.badges.map((badge) => {

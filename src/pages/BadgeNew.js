@@ -8,11 +8,11 @@ import header from '../images/badge-header.svg';
 class BadgeNew extends React.Component {
   state = {
     form: {
-      firstName: '',
-      lastName: '',
-      email: '',
-      jobTitle: '',
-      twitter: '',
+      firstName: 'Juan C.',
+      lastName: 'Guaña',
+      email: 'juanc.guana',
+      jobTitle: 'Frontend developer',
+      twitter: 'juancguana',
     },
   };
 
