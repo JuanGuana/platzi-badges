@@ -1,6 +1,15 @@
 {
   "badges": [
     {
+      "id": "1",
+      "firstName": "Juan",
+      "lastName": "Guaña",
+      "email": "juanc.guana@gmail.com",
+      "jobTitle": "Frontend developer",
+      "twitter": "juancguana",
+      "avatarUrl": "https://pbs.twimg.com/profile_images/1362826038410170368/gs9ZQD1j_400x400.jpg"
+    },
+    {
       "id": "2de30c42-9deb-40fc-a41f-05e62b5939a7",
       "firstName": "Freda",
       "lastName": "Grady",
@@ -440,6 +449,60 @@
       "jobTitle": "Lawyer",
       "twitter": "ckaufmanpr",
       "id": "npaYZKI"
+    },
+    {
+      "form": {
+        "firstName": "Carlos",
+        "lastName": "Caiza",
+        "email": "juanc@gmail.com",
+        "jobTitle": "Backend developer",
+        "twitter": "carlosc"
+      },
+      "id": "WLUb5gJ"
+    },
+    {
+      "firstName": "Carlos",
+      "lastName": "Caiza",
+      "email": "carlos@gmail.com",
+      "jobTitle": "Backend developer",
+      "twitter": "carlos",
+      "id": "wH0tUtx"
+    },
+    {
+      "firstName": "Santiago",
+      "lastName": "Rojas",
+      "avatarUrl": "https://pbs.twimg.com/profile_images/1362826038410170368/gs9ZQD1j_400x400.jpg",
+      "email": "sati@gmail.com",
+      "jobTitle": "Frontend developer",
+      "twitter": "sant",
+      "id": "TOG4Dom"
+    },
+    {
+      "firstName": "Manuel",
+      "lastName": "Raza",
+      "avatarUrl": "https://pbs.twimg.com/profile_images/1362826038410170368/gs9ZQD1j_400x400.jpg",
+      "email": "mmanu@gmail.com",
+      "jobTitle": "Frontend developer",
+      "twitter": "mmanu",
+      "id": "husaAKk"
+    },
+    {
+      "firstName": "Saul",
+      "lastName": "Yanez",
+      "avatarUrl": "",
+      "email": "saul@hola.com",
+      "jobTitle": "FrontEnd engineer",
+      "twitter": "saul",
+      "id": "LVOq1CR"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "avatarUrl": "",
+      "email": "",
+      "jobTitle": "",
+      "twitter": "",
+      "id": "J231szS"
     }
   ]
 }

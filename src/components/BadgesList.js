@@ -1,16 +1,28 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Gravatar from './Gravatar';
 import './styles/BadgesList.css';
 class BadgesList extends React.Component {
   render() {
+    if (this.props.badges.length === 0) {
+      return (
+        <div>
+          <h3>No badges were found</h3>
+          <Link className='btn btn-primary' to='/badges/news'>
+            Create new badge
+          </Link>
+        </div>
+      );
+    }
     return (
       <ul className='list-unstyled'>
         {this.props.badges.map((badge) => {
           return (
             <li key={badge.id} className='BadgesList'>
               <div className='BadgesList__card'>
-                <img
+                <Gravatar
                   className='BadgeList__avatar'
-                  src={badge.avatarUrl}
+                  email={badge.email}
                   alt='Avatar'
                 />
                 <div className='BadgeList__information'>
