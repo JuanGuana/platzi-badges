@@ -1,0 +1,41 @@
+.Home {
+  height: 100vh;
+  background: url('../../images/stars.svg'), #1b1b25;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 5%;
+}
+
+@media (max-width: 790px) {
+  .Home {
+    flex-direction: column;
+  }
+  .Home-logo-container {
+    order: 0;
+  }
+  .Home-title {
+    order: 1;
+  }
+}
+
+.Home-title {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.Home-logo-container {
+  width: 50%;
+  height: auto;
+}
+
+.Home-logo {
+  max-width: 100%;
+  height: auto;
+  padding: 25px 0;
+}
